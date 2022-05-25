@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-menu{
+    display: flex;
+    background-color: #06121e;
+}
+
+.nav-menu .nav-logo{
+    margin: 15px 0 15px 10px;
+}
+.nav-menu .nav-logo img{
+    width: 112px;
+    height: 28px;
+}
+.nav-menu .nav-item i{
+    color: white;
+}
+
+.nav-menu .nav-item a{
+    color: white;
+    text-decoration: none;
+}
+.nav-menu .nav-item:hover{
+    background-color: #102c48;
+}
+.nav-menu .nav-item:hover a{
+        color: #428bca;
+}
+.nav-link{
+    display: flex;
+    margin-left: 20px;
+}
+
+.nav-menu .nav-item{
+  padding: 20px 15px;
+  font-weight: 500;
+  
+}

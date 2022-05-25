@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+table tr td img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+table tr td{
+    text-align: center;
+}
+table tr td button{
+    cursor: pointer;
+}
+table tr.id-odd:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+
+}
+table tr.id-even:hover{
+    background-color: chocolate;
+    cursor: pointer;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
